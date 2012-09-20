@@ -1,0 +1,710 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"breves",
+				"breves_counter"
+			],
+			[
+				"current",
+				"current_edition_slug"
+			],
+			[
+				"pre-",
+				"pre-wrap"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"is_s",
+				"is_sticky"
+			],
+			[
+				"h",
+				"h2"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"clea",
+				"clear"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"impo",
+				"importants"
+			],
+			[
+				"displ",
+				"display"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"displa",
+				"display_name"
+			],
+			[
+				"current_ed",
+				"current_edition_date"
+			],
+			[
+				"get_tepl",
+				"get_template"
+			],
+			[
+				"cent",
+				"centered"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"jus",
+				"justify"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"section",
+				"sectionTitle"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pull",
+				"pull-two"
+			],
+			[
+				"site",
+				"site_url"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"une_t",
+				"une_tags"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"Futur",
+				"FuturaStdBook"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"strre",
+				"str_replace"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"view",
+				"viewTaskDetail"
+			],
+			[
+				"diff",
+				"difficulty_point"
+			],
+			[
+				"money",
+				"money_point"
+			],
+			[
+				"addTask",
+				"addTaskBt"
+			],
+			[
+				"noTa",
+				"noTasksOnDay"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3478,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javascripts/app.js",
+			"settings":
+			{
+				"buffer_size": 1028,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/app.css",
+			"settings":
+			{
+				"buffer_size": 1452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/foundation.css",
+			"settings":
+			{
+				"buffer_size": 34649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javascripts/foundation.min.js",
+			"settings":
+			{
+				"buffer_size": 109305,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 353.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/contact/Sites/www/sudweb-pre-pre-page-mob/css/style.css",
+		"/Users/contact/Sites/www/sudweb2012/wp-content/themes/wp-sudweb-theme/assets/fonts/din-alternatebold/stylesheet.css",
+		"/Users/contact/Sites/www/sudweb-prepage-2013/javascripts/foundation.min.js",
+		"/Users/contact/Sites/www/sudweb-prepage-2013/humans.txt",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-breves.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/category.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/archive.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/page-edition.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-page.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/functions/poui12-related-posts-widget.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/category-breves.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/comments.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/page.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/_strip-commentaires.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/article.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/_strip-auteur.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/functions/widgets.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/functions/shortcodes.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12-old-dev/css/styles.css",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12-old-dev/author.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/sidebar-joinus.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/stripe-subscribe-3.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12-old-dev/header.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/stripe-subscribe-2.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/page-editions.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/style.less",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/home.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/.htaccess",
+		"/Users/contact/Library/Containers/com.sparrowmailapp.sparrow/Data/Library/Application Support/Sparrow/tmp/D9AB7BA5-3A49-4CE0-A47A-47B2AE17BDDB/WIN-U0WEX9026P67d822246ffbe4e1397f404fe7aee7332@WIN-U0WEX9026P6/F6513675-216D-46D2-8AB5-E6361E64DA27/invoice.html",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12-old-dev/page-home.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/_strip-pagination.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/_header.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/_footer.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/css/hashgrid.css",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/sidebar-recReads.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/js/script.js",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/js/hashgrid.js",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/style.less",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/_strip-lecture.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/sidebar-1.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/recReads.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/style.css",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/styles.less",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/v2/styles.css",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/custom-register.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/page-home.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-single-essai.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-single-interview.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-single-pour-ou-contre.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-single-tutorial.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/content-single.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/footer.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/css/styles.css",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-config.php",
+		"/Users/contact/Me/Société/Portfolio/13h37/articles/amasfrand-RTL/amasfrand-ltr.html",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/header.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/js/plugins.js",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/attachment.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/page-compte.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/functions.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/emails/welcome.php",
+		"/Users/contact/Sites/www/letrainde13h37.fr/css/global.css",
+		"/Users/contact/Sites/www/letrainde13h37.fr/index.htm",
+		"/Users/contact/Sites/www/letrainde13h37.fr/wp-content/themes/poui12/header-attachment.php",
+		"/Users/contact/Sites/www/t13h37.fr/yourls-read-only/includes/load-yourls.php",
+		"/Users/contact/Sites/www/t13h37.fr/yourls-read-only/yourls-loader.php",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/User/Modific.sublime-settings",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/Modific/Modific.sublime-settings",
+		"/Users/contact/Sites/www/pouitasks/js/zebra_datepicker.src.js",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/Goto-CSS-Declaration/Default (OSX).sublime-keymap",
+		"/Users/contact/Sites/www/pouitasks/INSTALL",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/CSScomb/Default (OSX).sublime-keymap",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/CSSLint/Default (OSX).sublime-keymap",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/User/CSSLint.sublime-settings",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/CSSLint/CSSLint.sublime-settings",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/contact/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/contact/Sites/www/pouitasks/index.html",
+		"/Users/contact/Downloads/Ressources/Code/foundation3/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hide",
+			"img",
+			"loopC",
+			".btn",
+			"comments",
+			"noBonus",
+			"$tags",
+			"removeArticleTools",
+			"commentLink",
+			"fixedCommentLink",
+			"articleTo",
+			"?>\n",
+			"auteur",
+			"red",
+			" postTitle",
+			"pagination",
+			"poui12_with_tags()",
+			"Rechercher",
+			"last_edition_id",
+			"logo",
+			"serif",
+			"Georgia",
+			"hashg",
+			"url(img/",
+			"201616",
+			"max-",
+			"max-<",
+			"location",
+			"border-ra",
+			"<blockquote>\n<p><b>Pince-moi</b>",
+			"<blockquote>\n<p><b>Pince-mi</b>",
+			"pre",
+			"$",
+			"supp",
+			"unfuddle",
+			" ?",
+			" !",
+			" ;",
+			" :",
+			"wordpress",
+			"#livres",
+			"#livr",
+			"&#8217;",
+			"msg",
+			"enter",
+			"super+ctrl+right",
+			".btn",
+			"button",
+			"../assets/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"url(images/",
+			"fb6363",
+			"<blockquote class=\"speaker2\">\n<p><b>Pince-moi</b>",
+			"<blockquote class=\"speaker1\">\n<p><b>Pince-moi</b>",
+			"<blockquote class=\"speaker1\">\n<p><b>Pince-mi</b>",
+			"jQuery",
+			"&nbsp;?",
+			"&nbsp;!",
+			"&nbsp;;",
+			"&nbsp;:",
+			"&nbsp;",
+			"'",
+			"",
+			"../assets/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2931,
+								2931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "javascripts/app.js",
+					"settings":
+					{
+						"buffer_size": 1028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/app.css",
+					"settings":
+					{
+						"buffer_size": 1452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 175.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/foundation.css",
+					"settings":
+					{
+						"buffer_size": 34649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23417,
+								23417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4869.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "javascripts/foundation.min.js",
+					"settings":
+					{
+						"buffer_size": 109305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106862,
+								107200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 172.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"boot",
+				"css/bootstrap.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true
+}

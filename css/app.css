@@ -1,0 +1,36 @@
+/* Sud Web 2013 */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Common
+*/
+
+
+/* -----------------------------------------
+   Common
+----------------------------------------- */
+
+.stripe { position: relative; z-index: 1; padding: 2em 0; background-color: #FFFFFF; }
+header.stripe { background-color: transparent; }
+footer.stripe { padding-bottom: 0; background-color: #402f33; color: #FFFFFF; }
+footer.stripe a { color: #FFFFFF; }
+#content { background-color: rgba(196, 4, 35, 0.25); box-shadow: 0 10px 5px -10px rgba(0, 0, 0, 0.7) inset, 0 -10px 5px -10px rgba(0, 0, 0, 0.7) inset; }
+header.stripe figure img, #decoImg { display: block; margin: 0 auto; }
+
+h1 { font-size: 3em; margin-bottom: .1em; }
+h2 { font-size: 2em; margin-bottom: .3em; }
+aside.stripe h2, #content h2 { margin-bottom: 1em; }
+h3 { font-size: 1.5em; }
+
+@media only screen and (max-width: 767px) { 
+	header.stripe figure img { max-width: 200px; margin-bottom: 2em; }
+}
+
+@media only screen and (min-width: 768px) { 
+	header.stripe { background-color: rgba(0, 0, 0, 0.5); padding: 5em 0 2em 0; color: #FFFFFF; text-shadow: 2px 2px 2px #000; }
+	header.stripe h3 { padding-right: 5em; }
+	#content { box-shadow: none; color: #FFFFFF; background-color: rgba(0, 0, 0, 0.5); }
+	#content h2 { text-shadow: 2px 2px 2px #000; }
+	#decoImg { position: absolute; top: 0; left: 0; z-index: 0; width: 100%; }
+}

@@ -1,0 +1,15 @@
+/* humanstxt.org */
+
+/* TEAM */
+  Sud Web: Sud Web
+  Site: http://sudweb.fr
+  Twitter: @sudweb
+  Location: South of France
+
+/* THANKS */
+  Names (& URL): Foundation (http://zurb.com)
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: Sublime Text 2, Git
