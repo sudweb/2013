@@ -110,7 +110,8 @@ li img {
 	text-shadow: 0 1px 0 #B32E2D;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 	color: #402f33;
 	background: #F8B319;
 	text-shadow: 0 1px 0 #FFFFFF;
@@ -151,6 +152,10 @@ footer {
 
 footer a {
 	color: #FFFFFF;
+}
+footer a:hover,
+footer a:focus {
+	color: #F8B319;
 }
 
 @media only screen and (max-width: 900px) {
