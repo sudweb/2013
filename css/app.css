@@ -10,7 +10,7 @@ body,
 input,
 select,
 textarea {
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 h1,
@@ -25,18 +25,20 @@ h1,
 h2 {
 	color: #402f33;
 	border-bottom: 1px solid #F8B319;
-	font-size: 3.5em;
-	margin: .3em 0;
-}
-
-h3 {
-	font-size: 1.5em;
+	margin: .3em 0 .5em 0;
+	padding-bottom: 0.5em;
+	text-align: center;
 }
 
 img,
 .button {
-	box-shadow: inset 0 0 .3em #402f33;
+	box-shadow: inset 0 0 .1em #402f33;
 	border-radius: 3px;
+}
+
+.partenaires {
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .partenaires img {
@@ -62,7 +64,7 @@ header {
 }
 
 #content {
-	padding: .5 0 1em;
+	padding: .5em 0 2em 0;
 	background: #f1f1f1 url(../images/natural_paper.png) top center repeat;
 }
 
@@ -110,7 +112,8 @@ li img {
 	text-shadow: 0 1px 0 #B32E2D;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 	color: #402f33;
 	background: #F8B319;
 	text-shadow: 0 1px 0 #FFFFFF;
@@ -118,15 +121,16 @@ li img {
 
 h1 {
 	font-size: 3em;
-	margin-bottom: .1em;
+	margin-bottom: .5em;
 }
 
 h2 {
 	font-size: 3em;
-	margin-bottom: .1em;
+	margin-bottom: .5em;
 }
 
-p {
+p,
+li {
 	font-size: 1.7em;
 }
 
@@ -141,8 +145,24 @@ figcaption {
 	font-style: italic;
 }
 
+.connect a {
+	display: inline-block;
+	padding: 10px 20px 25px 52px;
+	min-height: 53px;
+	background: url(../images/icones.png) no-repeat left top;
+}
+.connect .twitter {
+	background-position: left -100px;
+}
+.connect .facebook {
+	background-position: left -200px;
+}
+.connect .lanyrd {
+	background-position: left -300px;
+}
+
 footer {
-	padding-top: .5em;
+	padding-top: 2em;
 	padding-bottom: 0;
 	background-color: #402f33;
 	color: #FFFFFF;
@@ -151,6 +171,10 @@ footer {
 
 footer a {
 	color: #FFFFFF;
+}
+footer a:hover,
+footer a:focus {
+	color: #F8B319;
 }
 
 @media only screen and (max-width: 900px) {
@@ -173,7 +197,7 @@ header {
 }
 
 h1,
-	h2 {
+h2 {
 	font-size: 2em;
 	margin-top: 0;
 }
@@ -186,4 +210,13 @@ h1 {
 	font-size: 3em;
 }
 
+}
+@media (min--moz-device-pixel-ratio: 1.5),
+         (-o-min-device-pixel-ratio: 3/2),
+         (-webkit-min-device-pixel-ratio: 1.5),
+         (min-resolution: 1.5dppx) {
+
+	#content {
+		background-image: url(../images/natural_paper_@2x.png);
+	}
 }
