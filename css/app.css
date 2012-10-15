@@ -10,7 +10,7 @@ body,
 input,
 select,
 textarea {
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 h1,
@@ -27,6 +27,7 @@ h2 {
 	border-bottom: 1px solid #F8B319;
 	font-size: 3.5em;
 	margin: .3em 0;
+	text-align: center;
 }
 
 h3 {
