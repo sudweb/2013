@@ -27,3 +27,16 @@
   }
 
 })(jQuery, this);
+
+
+$(document).ready(function() {
+  
+  // Track Clicks on call-to-actions
+  $('a[data-ga-category]').click(function trackClicks() {
+    var category = $(this).attr('data-ga-category');
+    var action = $(this).attr('data-ga-action');
+    var label = $(this).attr('data-ga-label');
+    _gaq.push(['_trackEvent', category, action, label]);
+  });
+
+});
