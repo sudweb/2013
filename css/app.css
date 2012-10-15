@@ -26,7 +26,8 @@ h2 {
 	color: #402f33;
 	border-bottom: 1px solid #F8B319;
 	font-size: 3.5em;
-	margin: .3em 0;
+	margin: .3em 0 .5em 0;
+	padding-bottom: 0.5em;
 	text-align: center;
 }
 
