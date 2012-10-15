@@ -66,11 +66,14 @@ header {
 	background: #f1f1f1 url(../images/natural_paper.png) top center repeat;
 }
 
+.venue {
+	margin: 1em 0 0 0;	
+}
+
 .lieu,
 .date {
-	margin: .25em 0 0 0;
 	line-height: 1.2;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-shadow: 0 1px 0 #6b121f;
 	color: #B32E2D;
 }
@@ -120,11 +123,7 @@ h1 {
 
 h2 {
 	font-size: 3em;
-	margin-bottom: .3em;
-}
-
-aside.stripe h2, #content h2 {
-	margin-bottom: 1em;
+	margin-bottom: .1em;
 }
 
 p {
