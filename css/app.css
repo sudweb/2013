@@ -25,14 +25,9 @@ h1,
 h2 {
 	color: #402f33;
 	border-bottom: 1px solid #F8B319;
-	font-size: 3.5em;
 	margin: .3em 0 .5em 0;
 	padding-bottom: 0.5em;
 	text-align: center;
-}
-
-h3 {
-	font-size: 1.5em;
 }
 
 img,
@@ -134,7 +129,8 @@ h2 {
 	margin-bottom: .5em;
 }
 
-p {
+p,
+li {
 	font-size: 1.7em;
 }
 
@@ -147,6 +143,22 @@ figcaption {
 	font-size: 1.5em;
 	margin-bottom: .5em;
 	font-style: italic;
+}
+
+.connect a {
+	display: inline-block;
+	padding: 10px 20px 25px 52px;
+	min-height: 53px;
+	background: url(../images/icones.png) no-repeat left top;
+}
+.connect .twitter {
+	background-position: left -100px;
+}
+.connect .facebook {
+	background-position: left -200px;
+}
+.connect .lanyrd {
+	background-position: left -300px;
 }
 
 footer {
@@ -185,7 +197,7 @@ header {
 }
 
 h1,
-	h2 {
+h2 {
 	font-size: 2em;
 	margin-top: 0;
 }
