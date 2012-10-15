@@ -39,6 +39,10 @@ img,
 	border-radius: 3px;
 }
 
+.partenaires img {
+	box-shadow: none;
+}
+
 /* -----------------------------------------
    Common
 ----------------------------------------- */
@@ -65,8 +69,8 @@ header {
 .lieu,
 .date {
 	margin: 0;
-	font-size: 1.2em;
 	line-height: 1.2;
+	font-size: 1.1em;
 	text-shadow: 0 1px 0 #6b121f;
 	color: #B32E2D;
 }
@@ -125,7 +129,7 @@ aside.stripe h2, #content h2 {
 }
 
 p {
-	font-size: 1.35em;
+	font-size: 1.7em;
 }
 
 h3 {
@@ -136,6 +140,7 @@ figcaption {
 	text-align: center;
 	font-size: 1.5em;
 	margin-bottom: .5em;
+	font-style: italic;
 }
 
 footer {
