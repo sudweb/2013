@@ -147,18 +147,57 @@ figcaption {
 
 .connect a {
 	display: inline-block;
-	padding: 10px 20px 25px 52px;
-	min-height: 53px;
+	padding: .2em .5em .2em 0;
+}
+.connect a::before {
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	margin-top: -20px;
+	width: 50px;
+	height: 53px;
+	
 	background: url(../images/icones.png) no-repeat left top;
 }
-.connect .twitter {
-	background-position: left -100px;
+.connect .twitter::before {
+	background-position: -60px top;
 }
-.connect .facebook {
-	background-position: left -200px;
+.connect .facebook::before {
+	background-position: -120px top;
 }
-.connect .lanyrd {
-	background-position: left -300px;
+.connect .lanyrd::before {
+	background-position: -180px top;
+}
+
+.connect .newsletter:hover::before,
+.connect .newsletter:focus::before {
+	background-position: left -75px;
+}
+.connect .twitter:hover::before,
+.connect .twitter:focus::before {
+	background-position: -60px -75px;
+}
+.connect .facebook:hover::before,
+.connect .facebook:focus::before {
+	background-position: -120px -75px;
+}
+.connect .lanyrd:hover::before,
+.connect .lanyrd:focus::before {
+	background-position: -180px -75px;
+}
+// Active
+.connect .newsletter:active::before {
+	background-position: left -150px;
+}
+.connect .twitter:active::before {
+	background-position: -60px -150px;
+}
+.connect .facebook:active::before {
+	background-position: -120px -150px;
+}
+.connect .lanyrd:active::before {
+	background-position: -180px -150px;
 }
 
 footer {
