@@ -40,7 +40,10 @@ img,
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
-
+.partenaires a:hover,
+.partenaires a:focus {
+	border-bottom: 1px solid #F8B319;
+}
 .partenaires img {
 	box-shadow: none;
 }
