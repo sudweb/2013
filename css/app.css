@@ -68,7 +68,7 @@ header {
 
 .lieu,
 .date {
-	margin: 0;
+	margin: .25em 0 0 0;
 	line-height: 1.2;
 	font-size: 1.1em;
 	text-shadow: 0 1px 0 #6b121f;
@@ -77,7 +77,6 @@ header {
 
 .lieu {
 	float: left;
-	margin-left: .5em;
 }
 
 .date {
@@ -120,7 +119,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 3em;
 	margin-bottom: .3em;
 }
 
@@ -168,15 +167,10 @@ header {
 }
 
 .lieu,
-	.date {
-	display: block;
-	float: none;
-	margin: 0;
-	text-align: center;
-}
-
 .date {
-	margin-bottom: -.5em;
+	display: block;
+	float: none;;
+	text-align: center;
 }
 
 h1,
