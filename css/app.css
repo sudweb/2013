@@ -243,6 +243,10 @@ h2 {
 	font-size: 2em;
 	margin-top: 0;
 }
+p,
+li {
+	font-size: 1.2em;
+}
 
 }
 
