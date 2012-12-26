@@ -1,6 +1,6 @@
 /* Sud Web 2013 */
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
 :: Common
@@ -14,7 +14,7 @@ textarea {
 }
 
 h1,
-h2, 
+h2,
 .lieu,
 .date,
 .button {
@@ -72,7 +72,7 @@ header {
 }
 
 .venue {
-	margin: 1em 0 2em;	
+	margin: 1em 0 2em;
 }
 
 .lieu,
@@ -160,7 +160,7 @@ figcaption {
 	margin-top: -20px;
 	width: 50px;
 	height: 53px;
-	
+
 	background: url(../images/icones.png) no-repeat left top;
 }
 .connect .twitter::before {
@@ -209,6 +209,15 @@ footer {
 	background-color: #402f33;
 	color: #FFFFFF;
 	box-shadow: inset 0 2px 5px rgba(0,0,0,1);
+}
+
+footer p,
+footer li {
+	margin-bottom:0;
+}
+
+footer li {
+	display: inline;
 }
 
 footer a {

@@ -243,53 +243,25 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 3478,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "javascripts/app.js",
-			"settings":
-			{
-				"buffer_size": 1028,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/app.css",
-			"settings":
-			{
-				"buffer_size": 1452,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/foundation.css",
-			"settings":
-			{
-				"buffer_size": 34649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "javascripts/foundation.min.js",
-			"settings":
-			{
-				"buffer_size": 109305,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 353.0,
+		"height": 247.0,
 		"selected_items":
 		[
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ja",
+				"Format: Javascript"
+			],
+			[
+				"JS",
+				"Format: Javascript"
+			],
 			[
 				"pa",
 				"Package Control: List Packages"
@@ -307,7 +279,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -324,6 +296,11 @@
 	},
 	"file_history":
 	[
+		"/Users/frank/Sites/sudweb/prepage-2013/javascripts/foundation.min.js",
+		"/Users/frank/Sites/sudweb/prepage-2013/css/app.css",
+		"/Users/frank/Sites/sudweb/prepage-2013/javascripts/app.js",
+		"/Users/frank/Sites/sudweb/prepage-2013/css/foundation.css",
+		"/Users/frank/Sites/sudweb/prepage-2013/index.html",
 		"/Users/contact/Sites/www/sudweb-pre-pre-page-mob/css/style.css",
 		"/Users/contact/Sites/www/sudweb2012/wp-content/themes/wp-sudweb-theme/assets/fonts/din-alternatebold/stylesheet.css",
 		"/Users/contact/Sites/www/sudweb-prepage-2013/javascripts/foundation.min.js",
@@ -503,145 +480,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 3478,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2931,
-								2931
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1104.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "javascripts/app.js",
-					"settings":
-					{
-						"buffer_size": 1028,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								115,
-								115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 87.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/app.css",
-					"settings":
-					{
-						"buffer_size": 1452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								497,
-								497
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 175.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/foundation.css",
-					"settings":
-					{
-						"buffer_size": 34649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23417,
-								23417
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4869.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "javascripts/foundation.min.js",
-					"settings":
-					{
-						"buffer_size": 109305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								106862,
-								107200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 172.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -702,7 +542,7 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 226.0,
