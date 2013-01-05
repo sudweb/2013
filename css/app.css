@@ -92,10 +92,6 @@ header {
 	margin-right: .5em;
 }
 
-.orateur {
-	margin-top: 110px;
-}
-
 li img {
 	background: #FFF;
 	padding: 5px 10px;
@@ -266,6 +262,15 @@ h1 {
 }
 
 }
+
+@media only screen and (min-width: 900px) {
+
+.orateur {
+	margin-top: 6em;
+}
+
+}
+
 @media (min--moz-device-pixel-ratio: 1.5),
          (-o-min-device-pixel-ratio: 3/2),
          (-webkit-min-device-pixel-ratio: 1.5),
