@@ -75,6 +75,9 @@ header {
 	bottom: -250px;
 	box-shadow: none;
 }
+.orateur {
+	margin-top: 6em;
+}
 
 #content {
 	padding: .5em 0 2em 0;
@@ -251,6 +254,9 @@ header {
 	display: block;
 	float: none;;
 	text-align: center;
+}
+.orateur {
+	margin-top: 0;
 }
 
 h1,
