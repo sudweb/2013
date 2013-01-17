@@ -36,6 +36,16 @@ img,
 	border-radius: 3px;
 }
 
+abbr {
+	color: inherit;
+	border-bottom: none;
+	cursor: auto;
+	text-transform: uppercase;
+}
+abbr[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
 .partenaires {
 	padding-top: 2em;
 	padding-bottom: 2em;
