@@ -238,6 +238,13 @@ footer a:focus {
 }
 
 @media only screen and (max-width: 900px) {
+.programme table {
+	width: 100%;
+	border-radius: 5px;
+	border-collapse: collapse;
+	box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
 
 header {
 	height: 200px;
