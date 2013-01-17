@@ -53,7 +53,7 @@ img,
 ----------------------------------------- */
 
 header {
-	background: #5880c4 url(../images/PalaisDesPapes.jpg) center top no-repeat;
+	background: #5880c4 url(../img/PalaisDesPapes.jpg) center top no-repeat;
 	height: 415px;
 	box-shadow: inset 0 -2px 5px #402f33;
 }
@@ -68,7 +68,7 @@ header {
 
 #content {
 	padding: .5em 0 2em 0;
-	background: #f1f1f1 url(../images/natural_paper.png) top center repeat;
+	background: #f1f1f1 url(../img/natural_paper.png) top center repeat;
 }
 
 .venue {
@@ -157,7 +157,7 @@ figcaption {
 	width: 50px;
 	height: 53px;
 
-	background: url(../images/icones.png) no-repeat left top;
+	background: url(../img/icones.png) no-repeat left top;
 }
 .connect .twitter::before {
 	background-position: -60px top;
@@ -277,6 +277,6 @@ h1 {
          (min-resolution: 1.5dppx) {
 
 	#content {
-		background-image: url(../images/natural_paper_@2x.png);
+		background-image: url(../img/natural_paper_@2x.png);
 	}
 }
