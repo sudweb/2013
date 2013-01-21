@@ -162,7 +162,8 @@ figcaption {
  */
 #orateurs dt{
   clear: both;
-  font-size: 2em;
+  color: #c40423;
+  font-size: 2.2em;
   margin: 0 0 .5em 0;
   padding: 1.5em 15px 0;    /* same as .column */
 }
