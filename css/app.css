@@ -307,7 +307,7 @@ footer a:focus {
   }
 
   .tabs.pill > li a:hover,
-  .tabs.pill > li a.active{
+  .tabs.pill > li.active a{
     background: #f5f5f5;
     -webkit-box-shadow: 0 0 10px #B32E2D;
     -moz-box-shadow: 0 0 10px #B32E2D;
