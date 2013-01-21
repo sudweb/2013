@@ -157,6 +157,36 @@ figcaption {
 	font-style: italic;
 }
 
+/*
+ * Speakers
+ */
+#orateurs dt{
+  clear: both;
+  color: #c40423;
+  font-size: 2.2em;
+  margin: 0 0 .5em 0;
+  padding: 1.5em 15px 0;    /* same as .column */
+}
+#orateurs dt:first-child{
+  padding-top: 0;
+}
+
+#orateurs dd{
+  font-size: 1.7em;   /* same as p, li */
+}
+  #orateurs dd p,
+  #orateurs dd li{
+    font-size: 1em;
+  }
+  #orateurs dd p:last-child{
+    margin-bottom: 0;
+  }
+
+#orateurs .links:before{
+  content: "Quelques liens :";
+  font-style: italic;
+}
+
 .connect a {
 	display: inline-block;
 	padding: .2em .5em .2em 0;
@@ -198,7 +228,7 @@ figcaption {
 .connect .lanyrd:focus::before {
 	background-position: -180px -75px;
 }
-// Active
+
 .connect .newsletter:active::before {
 	background-position: left -150px;
 }
@@ -244,6 +274,11 @@ footer a:focus {
 	box-shadow: 0 2px 10px rgba(0,0,0,.1);
 }
 
+/**
+ * In between portrait and landscape
+ *
+ *
+ */
 @media only screen and (max-width: 900px),
 	   only screen and (max-height: 600px) {
 
@@ -277,8 +312,20 @@ li {
 	font-size: 1.2em;
 }
 
+#orateurs dt{
+  font-size: 1.7em;
+}
+#orateurs dd{
+  font-size: 1.2em;
 }
 
+}
+
+/**
+ * From mobile device to portrait tablets
+ *
+ *
+ */
 @media only screen and (max-width: 649px) {
 	thead {
 		display: none;
@@ -300,6 +347,11 @@ li {
 	}
 }
 
+/**
+ * HiDPI screens
+ *
+ *
+ */
 @media (min--moz-device-pixel-ratio: 1.5),
          (-o-min-device-pixel-ratio: 3/2),
          (-webkit-min-device-pixel-ratio: 1.5),
