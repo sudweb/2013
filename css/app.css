@@ -198,7 +198,7 @@ figcaption {
 .connect .lanyrd:focus::before {
 	background-position: -180px -75px;
 }
-// Active
+
 .connect .newsletter:active::before {
 	background-position: left -150px;
 }
