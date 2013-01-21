@@ -12,6 +12,7 @@
 <title>Sud Web 2013, 17 et 18 mai en Avignon | Savoir-faire et faire savoir</title>
 <link rel="stylesheet" href="css/foundation.css">
 <link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css">
 <script type="text/javascript" src="http://use.typekit.net/txw8gkm.js"></script>
 <style type="text/css">.tk-cabazon{font-family:"cabazon",sans-serif;}</style>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -278,10 +279,12 @@
 				<figcaption>La salle du conclave du Palais des Papes</figcaption>
 			</figure>
 
-			<p>Les <strong>conférences</strong> ont lieu au Palais des Papes&nbsp;:</p>
-			<a href="https://maps.google.com/maps?q=Palais+des+papes,+Avignon,+France&sll=45.757956,4.835121&sspn=0.229952,0.354652&t=m&z=15"><img src="http://maps.googleapis.com/maps/api/staticmap?center=Palais+des+papes,Avignon,France&zoom=16&size=600x400&sensor=false" alt="Plan d'Avignon autour du Palais de Papes" /></a>
-			<p>Les <strong>ateliers</strong> se tiendront à la <abbr>CCI</abbr> d'Avignon, 46 cours Jean Jaurès (en face de la gare Avignon centre)&nbsp;:</p>
-			<a href="https://maps.google.com/maps?q=Chambre+de+Commerce+et+d'Industrie+de+Vaucluse+C.C.I.,+46+Cours+Jean+Jaur%C3%A8s,+Avignon,+Vaucluse,+France&ll=43.946052,4.805231&spn=0.041775,0.062485&sll=43.94355,4.805338&sspn=0.041777,0.062485&t=m&z=15"><img src="http://maps.googleapis.com/maps/api/staticmap?center=CCI,Avignon,France&zoom=16&size=600x400&sensor=false" alt="Plan d'Avignon autour de la CCI" /></a>
+            <div id="map">
+                <p>Les <strong>conférences</strong> ont lieu au Palais des Papes&nbsp;:</p>
+                <a href="https://maps.google.com/maps?q=Palais+des+papes,+Avignon,+France&sll=45.757956,4.835121&sspn=0.229952,0.354652&t=m&z=15"><img src="http://maps.googleapis.com/maps/api/staticmap?center=Palais+des+papes,Avignon,France&zoom=16&size=600x400&sensor=false" alt="Plan d'Avignon autour du Palais de Papes" /></a>
+                <p>Les <strong>ateliers</strong> se tiendront à la <abbr>CCI</abbr> d'Avignon, 46 cours Jean Jaurès (en face de la gare Avignon centre)&nbsp;:</p>
+                <a href="https://maps.google.com/maps?q=Chambre+de+Commerce+et+d'Industrie+de+Vaucluse+C.C.I.,+46+Cours+Jean+Jaur%C3%A8s,+Avignon,+Vaucluse,+France&ll=43.946052,4.805231&spn=0.041775,0.062485&sll=43.94355,4.805338&sspn=0.041777,0.062485&t=m&z=15"><img src="http://maps.googleapis.com/maps/api/staticmap?center=CCI,Avignon,France&zoom=16&size=600x400&sensor=false" alt="Plan d'Avignon autour de la CCI" /></a>
+            </div>
 		</div>
 	</div>
 	<div class="row">
@@ -392,5 +395,8 @@
 		</div>
 	</div>
 </footer>
+<script src="http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js"></script>
+<script src="js/jquip.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

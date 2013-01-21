@@ -100,6 +100,12 @@ header {
 	float: left;
 }
 
+#map{
+  height: 450px;
+  position: relative;
+  width: 100%;
+}
+
 .date {
 	float: right;
 	margin-right: .5em;
