@@ -283,11 +283,14 @@ footer a:focus {
  */
 .tabs.pill{
   margin-left: -15px; /* same as .tabs > li margin-left, inverted */
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+  white-space: nowrap;
 }
 .tabs > li{
   display: inline-block;
   list-style: none;
-  margin-left: 15px;
+  margin: 15px;
 }
   .tabs.pill > li a{
     -webkit-border-radius: 1000px;
