@@ -231,17 +231,19 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="row">
 		<div class="twelve columns" id="inscription">
-			<h2>Inscription</h2>
+			<h2>Réserve ton siège pour l'assemblée</h2>
 			<iframe src="https://www.weezevent.com/widget_billeterie.php?id_evenement=25888&code=62468" width="870" height="726"><a href="http://www.weezevent.com/Sud-Web-2013">Formulaire d'inscription</a></iframe>
 			<p>Etudiants, chômeurs : contactez-nous pour accéder au tarif préférentiel (sur justificatif).</p>
 		</div>
 	</div>
+
 	<div class="row">
 		<div class="twelve columns" id="orateurs">
 			<h2>Orateurs</h2>
-			<dl>
+			<dl class="talks-detail">
 				<dt id="mathieu-agopian">Mathieu Agopian</dt>
                 <dd class="picture three columns"><img src="http://placekitten.com/g/150/150" alt=""></dd>
                 <dd class="description offset-by-three">
@@ -552,6 +554,7 @@
 			</dl>
 		</div>
 	</div>
+
 	<div class="row">
 		<div class="twelve columns" id="infospratiques">
 			<h2>Informations pratiques</h2>
@@ -566,51 +569,61 @@
 			<a href="https://maps.google.com/maps?q=Chambre+de+Commerce+et+d'Industrie+de+Vaucluse+C.C.I.,+46+Cours+Jean+Jaur%C3%A8s,+Avignon,+Vaucluse,+France&ll=43.946052,4.805231&spn=0.041775,0.062485&sll=43.94355,4.805338&sspn=0.041777,0.062485&t=m&z=15"><img src="http://maps.googleapis.com/maps/api/staticmap?center=CCI,Avignon,France&zoom=16&size=600x400&sensor=false" alt="Plan d'Avignon autour de la CCI" /></a>
 		</div>
 	</div>
-	<div class="row">
-		<div class="twelve columns visiteur">
-			<h2>Réserve ton siège pour l'assemblée</h2>
-			<ul class="block-grid four-up mobile connect">
-				<li>
-					<a href="http://sudweb.us2.list-manage.com/subscribe?u=af19b58cf514c01eca3f7652e&id=b579f5b507" class="newsletter">Newsletter</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/SudWeb" class="twitter">Twitter</a>
-				</li>
-				<li>
-					<a href="https://facebook.com/SudWeb" class="facebook">Facebook</a>
-				</li>
-				<li>
-					<a href="http://lanyrd.com/2013/sudweb/" class="lanyrd">Lanyrd</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+
 	<div class="row">
 		<div class="twelve columns conferences">
-			<h2>Le client : ce gentil méchant</h2>
-			<h2>Conduite du changement, de l'artisanat à l'industrialisation</h2>
-			<h2>Compass et Sass ont embelli mon quotidien</h2>
-			<h2 lang="en">Getting touchy: an introduction to touch events</h2>
-			<h2><span lang="en">Lightning talks</span> du matin</h2>
-			<ol>
-				<li>Le développement c'est difficile, par <a href="#remi-parmentier">Rémi Parmentier</a></li>
-				<li>Aubergine n'est pas une couleur, par <a href="#alain-witkowski">Alain Witkowski</a></li>
-				<li>L'odyssée de l'espace insécable, par <a href="#damien-alexandre">Damien Alexandre</a></li>
-				<li>Et si j'écrivais un livre&nbsp;?, par <a href="#corinne-schillinger">Corinne Schillinger</a></li>
-			</ol>
-			<h2><span lang="en">Responsive News</span>&nbsp;: l'actualité mobile à la <abbr lang="en">BBC</abbr></h2>
-			<h2>Un parcours à travers les <abbr>API</abbr> pour la visualisation de données</h2>
-			<h2><span lang="en">Lightning talks</span> de l'après-midi</h2>
-			<ol>
-				<li>Le culte du cargo, par <a href="#thomas-zilliox">Thomas Zilliox</a></li>
-				<li>Un peu de TLS ne fait pas de mal, par <a href="#eric-daspet">Éric Daspet</a></li>
-				<li>Les super-pouvoirs du nouveau venu, par <a href="#mathieu-agopian">Mathieu Agopian</a></li>
-				<li>Travailler sur ses deux pieds, par <a href="#pierre-martin">Pierre Martin</a></li>
-			</ol>
-			<h2>La culture du monitoring</h2>
-			<h2>Comment l'impression 3D va modifier le web et l'économie</h2>
+            <h2>Les conférences</h2>
+
+            <dl class="talks-detail" id="conferences-detail">
+                <dt>Le client : ce gentil méchant</dt>
+                <dt>Conduite du changement, de l'artisanat à l'industrialisation</dt>
+                <dt>Compass et Sass ont embelli mon quotidien</dt>
+                <dt lang="en">Getting touchy: an introduction to touch events</dt>
+                <dt><span lang="en">Lightning talks</span> du matin</dt>
+                <dd class="description">
+                    <ol>
+                        <li>Le développement c'est difficile, par <a href="#remi-parmentier">Rémi Parmentier</a></li>
+                        <li>Aubergine n'est pas une couleur, par <a href="#alain-witkowski">Alain Witkowski</a></li>
+                        <li>L'odyssée de l'espace insécable, par <a href="#damien-alexandre">Damien Alexandre</a></li>
+                        <li>Et si j'écrivais un livre&nbsp;?, par <a href="#corinne-schillinger">Corinne Schillinger</a></li>
+                    </ol>
+                </dd>
+                <dt><span lang="en">Responsive News</span>&nbsp;: l'actualité mobile à la <abbr lang="en">BBC</abbr></dt>
+                <dt>Un parcours à travers les <abbr>API</abbr> pour la visualisation de données</dt>
+                <dt><span lang="en">Lightning talks</span> de l'après-midi</dt>
+                <dd class="description">
+                    <ol>
+                        <li>Le culte du cargo, par <a href="#thomas-zilliox">Thomas Zilliox</a></li>
+                        <li>Un peu de TLS ne fait pas de mal, par <a href="#eric-daspet">Éric Daspet</a></li>
+                        <li>Les super-pouvoirs du nouveau venu, par <a href="#mathieu-agopian">Mathieu Agopian</a></li>
+                        <li>Travailler sur ses deux pieds, par <a href="#pierre-martin">Pierre Martin</a></li>
+                    </ol>
+                </dd>
+                <dt>La culture du monitoring</dt>
+                <dt>Comment l'impression 3D va modifier le web et l'économie</dt>
+            </dl>
 		</div>
 	</div>
+
+    <div class="row">
+        <div class="twelve columns visiteur">
+            <h2>Suivre l'actualité de Sud Web</h2>
+            <ul class="block-grid four-up mobile connect">
+                <li>
+                    <a href="http://sudweb.us2.list-manage.com/subscribe?u=af19b58cf514c01eca3f7652e&id=b579f5b507" class="newsletter">Newsletter</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/SudWeb" class="twitter">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/SudWeb" class="facebook">Facebook</a>
+                </li>
+                <li>
+                    <a href="http://lanyrd.com/2013/sudweb/" class="lanyrd">Lanyrd</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </article>
 <aside role="complementary">
 	<div class="row">

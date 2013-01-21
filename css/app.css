@@ -160,29 +160,29 @@ figcaption {
 /*
  * Speakers
  */
-#orateurs dt{
+.talks-detail dt{
   clear: both;
   color: #c40423;
   font-size: 2.2em;
   margin: 0 0 .5em 0;
   padding: 1.5em 15px 0;    /* same as .column */
 }
-#orateurs dt:first-child{
+.talks-detail dt:first-child{
   padding-top: 0;
 }
 
-#orateurs dd{
+.talks-detail dd{
   font-size: 1.7em;   /* same as p, li */
 }
-  #orateurs dd p,
-  #orateurs dd li{
+  .talks-detail dd p,
+  .talks-detail dd li{
     font-size: 1em;
   }
-  #orateurs dd p:last-child{
+  .talks-detail dd p:last-child{
     margin-bottom: 0;
   }
 
-#orateurs .links:before{
+.talks-detail .links:before{
   content: "Quelques liens :";
   font-style: italic;
 }
