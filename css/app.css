@@ -181,6 +181,11 @@ figcaption {
     margin-bottom: 0;
   }
 
+#orateurs .links:before{
+  content: "Quelques liens :";
+  font-style: italic;
+}
+
 .connect a {
 	display: inline-block;
 	padding: .2em .5em .2em 0;
