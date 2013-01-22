@@ -10,7 +10,7 @@
 
   $(window).load(function(){
     if (mapbox !== undefined){
-      mapbox.auto('map', 'desbenoit.map-1elvk75x');
+      mapbox.auto('map', 'sudweb.map-mxvtkqmy');
     }
   });
 
