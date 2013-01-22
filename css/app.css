@@ -400,7 +400,15 @@ li {
   margin-left: 0;
 }
   .tabs.pill li{
-    margin: 0;
+    margin: 0 0 0 -4px;
+  }
+
+  .tabs.pill > li a{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
   }
 
 }
