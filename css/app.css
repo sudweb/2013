@@ -395,6 +395,14 @@ li {
   font-size: 1.2em;
 }
 
+.tabs.pill{
+  white-space: normal;
+  margin-left: 0;
+}
+  .tabs.pill li{
+    margin: 0;
+  }
+
 }
 
 /**
