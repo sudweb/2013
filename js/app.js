@@ -1,42 +1,17 @@
-;(function ($, window, undefined) {
-  'use strict';
-
-  var $doc = $(document),
-      Modernizr = window.Modernizr;
-  
-  $.fn.foundationAlerts           ? $doc.foundationAlerts() : null;
-  $.fn.foundationAccordion        ? $doc.foundationAccordion() : null;
-  $.fn.foundationTooltips         ? $doc.foundationTooltips() : null;
-  $('input, textarea').placeholder();
-  
-  $.fn.foundationMediaQueryViewer ? $doc.foundationMediaQueryViewer() : null;
-  
-  // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
-  // $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'both'});
-  // $('.block-grid.three-up>li:nth-child(3n+1)').css({clear: 'both'});
-  // $('.block-grid.four-up>li:nth-child(4n+1)').css({clear: 'both'});
-  // $('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'both'});
-
-  // Hide address bar on mobile devices
-  if (Modernizr.touch) {
-    $(window).load(function () {
-      setTimeout(function () {
-        window.scrollTo(0, 1);
-      }, 0);
+;(function($, document, window, undefined){
+  $(window).load(function() {
+    $('a[data-ga-category]').click(function trackClicks() {
+      var category = $(this).attr('data-ga-category');
+      var action = $(this).attr('data-ga-action');
+      var label = $(this).attr('data-ga-label');
+      _gaq.push(['_trackEvent', category, action, label]);
     });
-  }
-
-})(jQuery, this);
-
-
-$(document).ready(function() {
-  
-  // Track Clicks on call-to-actions
-  $('a[data-ga-category]').click(function trackClicks() {
-    var category = $(this).attr('data-ga-category');
-    var action = $(this).attr('data-ga-action');
-    var label = $(this).attr('data-ga-label');
-    _gaq.push(['_trackEvent', category, action, label]);
   });
 
-});
+  $(window).load(function(){
+    if (mapbox !== undefined){
+      mapbox.auto('map', 'sudweb.map-mxvtkqmy');
+    }
+  });
+
+})(jquip, document, window);
