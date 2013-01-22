@@ -170,6 +170,11 @@ h3 {
 	font-size: 1.5em;
 }
 
+table tbody tr td {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
 figcaption {
 	text-align: center;
 	font-size: 1.5em;
@@ -413,6 +418,11 @@ li {
 	thead {
 		display: none;
 	}
+  table tbody tr td {
+    font-size: 1.2em;
+    line-height: 1em;
+  }
+
 	.programme td {
 		display: block;
 		-webkit-box-sizing: border-box;
