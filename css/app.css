@@ -309,6 +309,19 @@ iframe, #map{
 }
 
 /**
+ * Sponsors
+ */
+.level-gold img{
+  height: 160px;
+  width: 160px;
+}
+
+.level-silver img{
+  height: 120px;
+  width: 120px;
+}
+
+/**
  * Tabs & pills (backport of Fundation 3.x)
  */
 .tabs.pill{
