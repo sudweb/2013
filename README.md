@@ -36,3 +36,15 @@ cd to/sudweb/2013/repo
 git add img/speakers/150/*
 git commit -m "Updated speakers thumbs"
 ```
+
+### Sponsors Logo
+
+If you add or update a picture located in `img/sponsors/orig`, make sure to
+run the thumbnail generator script based on [imagemagick](http://www.imagemagick.org/).
+
+```bash
+cd to/sudweb/2013/repo
+./bin/sponsors-thumbs.sh
+git add img/sponsors/150/*
+git commit -m "Updated sponsors thumbs"
+```
