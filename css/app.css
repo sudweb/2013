@@ -397,15 +397,13 @@ h2 {
 	margin-top: 0;
 }
 p,
-li {
+li,
+.talks-detail dd{
 	font-size: 1.2em;
 }
 
-#orateurs dt{
+.talks-detail dt{
   font-size: 1.7em;
-}
-#orateurs dd{
-  font-size: 1.2em;
 }
 
 .tabs.pill{
